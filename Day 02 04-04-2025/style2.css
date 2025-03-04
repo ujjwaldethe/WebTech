@@ -1,0 +1,27 @@
+#h1{
+
+    color: blueviolet;
+    background-color: blanchedalmond;
+    font-size: 80px;
+    border: 10px dotted black;
+}
+#h2{
+
+    color: red;
+    background-color: blanchedalmond;
+    font-size: 80px;
+    border: 10px solid black;
+}
+#h3{
+    color: gold;
+    background-color: black;
+    font-size: 80px;
+    border: 10px dotted white;
+}
+#h4{
+
+    color: blue;
+    background-color: blanchedalmond;
+    font-size: 80px;
+    border: 10px double black;
+}
