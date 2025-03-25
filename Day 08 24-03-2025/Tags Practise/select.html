@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>State Selection Form </legend>
+            <select name="select">
+                <option value="">State</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Punjab">Punjab</option>
+            </select>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    <script>
+        let select = document.querySelector("select");
+        select.addEventListener("change", (e) => {
+            console.log(e.target.name, e.target.value);
+        });
+    </script>
+    <!-- 
+     Tags :
+     form
+     input
+     label
+     button
+     fieldset
+     legend
+     textarea
+     select
+     option
+     =================================
+     Attributes :
+     method
+     action
+     for 
+     name
+     value
+     id
+     type
+     min 
+     max
+     rows 
+     cols
+     step
+     readonly (input fields)
+     disabled(button)
+     placeholder
+     minlength
+     maxlength
+     autofocus
+     accesskey
+     -->
+</body>
+</html>
