@@ -1,0 +1,13 @@
+div+div{
+    background-color: green;
+}
+div+div~section{
+    background-color: yellowgreen;
+}
+
+div+div~section+p{
+    background-color: magenta;
+}
+
+
+

@@ -1,0 +1,10 @@
+
+h1~p{
+    background-color: blue;
+}
+p~div{
+    background-color: red;
+}
+h1~section{
+    background-color: orange;
+}

@@ -1,0 +1,40 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+div:hover{
+    background:khaki;
+    width: 100px;
+    height: 200px;
+}
+.a{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.c{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.d{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+a{
+    color: blue;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: aqua;
+}

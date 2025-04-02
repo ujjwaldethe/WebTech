@@ -1,0 +1,60 @@
+p::first-letter{
+    font-size: 2em;
+    color: red;
+}
+p::first-line{
+    font-size: 1.5em;
+    color: blue;
+}
+p{
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+}
+p::selection{
+    background-color: yellow;
+    color: black;
+}
+
+p::before{
+    content: "Starting Of Paragraph: ";
+    font-weight: bold;
+    color: green;
+}
+p::after {
+    content: " |";
+    font-weight: bold;
+    opacity: 1;
+    animation: pointer 0.5s infinite;
+}
+
+    @keyframes pointer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+li::marker{
+    content: "🍎";
+}
+li+li::marker{
+    content: "🍌";
+}
+li~li+li::marker{
+    content: "🍒";
+}
+li~li+li+li::marker{
+    content: "🍉";
+}
+li~li+li+li+li::marker{
+    content: "🍓";
+}
