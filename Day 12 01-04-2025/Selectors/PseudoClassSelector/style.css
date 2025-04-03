@@ -38,3 +38,34 @@ a:active{
 a:visited{
     color: aqua;
 }
+
+input:checked{
+    color: red;
+    width: 50px;
+    height: 50px;
+    outline: 3px solid springgreen;
+}
+input:focus{
+    background-color:tomato;
+}
+button:hover{
+    background-color: red;
+}
+p{
+    display: none;
+    width: 400px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}
+button:hover+p{
+    display: block;
+}
+p{
+    color: aqua;
+}
+p:hover{
+    background-color: antiquewhite;
+    color: blueviolet;
+}

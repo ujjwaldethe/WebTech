@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: palevioletred;
+}
+body{
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+main{
+    width: 50vw;
+    height: 50vh;
+    margin: 10%;
+    background-color: plum;
+}
+div{
+    width: 25vw;
+    height: 25vh;
+    background-color: aqua;
+}

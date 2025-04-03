@@ -1,0 +1,27 @@
+/* Removed duplicate section:last-child to avoid conflict */
+div:first-child {
+    background: red;
+}
+
+section:nth-child(4) {
+    background-color: brown;
+}
+
+section:nth-child(3) {
+    background-color: wheat;
+}
+
+section:last-child {
+    background-color: yellow;
+}
+tr:nth-child(even)
+{
+    background-color: lightblue;
+}
+tr:nth-child(odd)
+{
+    background-color:lightcyan;
+}
+td{
+    padding: 30px;
+}
