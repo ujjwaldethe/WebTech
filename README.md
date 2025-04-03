@@ -93,17 +93,83 @@ ProjectRoot/
 │   │   ├── table3.html  
 │   │   ├── timetable.html  
 │  
-│── Day 10 (26-03-2025)/  
-│   ├── list/  
-│   │   ├── description list/  
-│   │   │   ├── dl.html  
-│   │   │   ├── nestedlist.html  
-│   │   │   ├── task.html  
-│   │   ├── ordered list/  
-│   │   │   ├── ol.html  
-│   │   ├── unordered list/  
-│   │   │   ├── ul.html  
-│   ├── tables/  
-│   │   ├── nestedtable.html  
-│   │   ├── table.html  
-│   ├── README.md  
+├── Day 10 26-03-2025
+│   ├── forms
+│   │   └── registration.html
+│   ├── list
+│   │   ├── description list
+│   │   │   ├── dl.html
+│   │   │   ├── nestedlist.html
+│   │   │   └── task.html
+│   │   ├── ordered list
+│   │   │   └── ol.html
+│   │   ├── unordered list
+│   │   │   └── ul.html
+│   ├── tables
+│   │   ├── nestedtable.html
+│   │   └── table.html
+│
+├── Day 11 31-03-2025
+│   ├── Selectors
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   ├── index.html
+│   │   └── style.css
+│
+├── Day 12 01-04-2025
+│   ├── PseudoClassSelector
+│   │   ├── index.html
+│   │   └── style.css
+│   ├── Selectors
+│   │   ├── CombinatorSelectors
+│   │   │   ├── AdjacentSelectors
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── DescendentSelectors
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── GeneralSibling
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── childSelectors
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── index.html
+│   │   │   └── PseudoElementSelector
+│   │   │       ├── index.html
+│   │   │       ├── style.css
+│   │   │       └── test.html
+│
+├── Homework1
+│   ├── 1.html
+│   ├── 2.html
+│   ├── 3.html
+│   ├── 4.html
+│   ├── 5.html
+│   ├── 6.html
+│   ├── 7.html
+│   ├── 8.html
+│   ├── 9.html
+│   ├── 10.html
+│   ├── 11.html
+│   ├── 12.html
+│   ├── 13.html
+│   ├── 14.html
+│   ├── 15.html
+│   ├── 16.html
+│   ├── 17.html
+│   ├── 18.html
+│   ├── 19.html
+│   ├── 20.html
+│   ├── 21.html
+│   ├── 22.html
+│   ├── 23.html
+│   ├── 24.HTML
+│   ├── 25.html
+│   ├── 26.html
+│   ├── 27.html
+│   ├── 28.html
+│   ├── 29.html
+│   ├── 30.html
+│
+└── README.md
