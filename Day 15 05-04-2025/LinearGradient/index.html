@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .d1{
+            /* background: radial-gradient(red, blue); */
+            background: conic-gradient(red,orange,yellow,green,blue, red);
+            width: 40vw;
+            height: 40vw;
+            border-radius: 50%;
+        }
+        .d2 {
+            background-image: repeating-radial-gradient(white 5%, black 6%, white 7%, black 8%, white 9%, black 10%);
+            width: 40vw;
+            height: 40vw;
+            border-radius: 48%;
+            animation: spin 1s linear infinite;
+        }
+        .d3{
+            background-color: red;
+            width: 40vw;
+            height: 40vw;
+            border-radius: 48%;
+            clip-path: circle(50% at 80% 50%);
+            animation: spin 1s linear infinite;
+            
+        }
+        @keyframes spin
+        {
+            from {
+            transform: rotate(0deg);
+            }
+            to {
+            transform: rotate(360deg);
+        }
+        /* @keyframes spin {
+            from {
+            transform: rotate(0deg);
+            }
+            to {
+            transform: rotate(360deg);
+            }
+        } */
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>
+        </legend>
+        <!-- <div class="d1"></div> -->
+        <!-- <div class="d2"></div> -->
+        <div class="d3"></div>
+    </fieldset>
+</body>
+</html>
