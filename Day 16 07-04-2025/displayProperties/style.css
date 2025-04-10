@@ -16,8 +16,7 @@ div:not(.logo){
     align-items:center;
     text-align: center;
     justify-content: space-around;
-    width: 85%;
-    
+    width: 85%;   
 }
 .logo{
     width: 15%;

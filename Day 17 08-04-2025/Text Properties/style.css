@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* Changed from align-content to align-items */
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    margin-top: 100px;
+    text-decoration-line: none;
+    text-decoration-color: chocolate;
+}
+@keyframes waveEffect {
+    0% {
+        text-decoration-style: wavy;
+        text-decoration-thickness: 30px;
+    }
+    50% {
+        text-decoration-thickness: 40px;
+    }
+    100% {
+        text-decoration-thickness: 30px;
+    }
+}
+p{
+    font-size: 10em;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(153, 201, 22);
+    text-shadow: 5px 1px 5px rgb(0, 0, 0);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 30px;
+    text-decoration-color: brown;
+    animation: waveEffect 1s infinite; /* Added animation property */
+    /* text-decoration: underline dotted 10px yellowgreen; */
+    /* text-decoration is a short hand property where we can pass more than one values
+        text-shadow is a short hand property where we can pass more than one values
+        text-transform is a short hand property where we can pass more than one values  
+        font-weight is a short hand property where we can pass more than one values
+        font-size is a short hand property where we can pass more than one values
+        color is a short hand property where we can pass more than one values
+        text-indent is a short hand property where we can pass more than one values
+        text-align is a short hand property where we can pass more than one values
+    */
+}
+ /* p{
+    text-indent: 2vw;
+ } */

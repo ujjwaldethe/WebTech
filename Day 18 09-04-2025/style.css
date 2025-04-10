@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+   
+    width: 100%;
+
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-top:  10 px solid red;
+    border-right:  10px solid yellow;
+    border-left:  10px solid yellowgreen;
+    border-bottom:  10px solid blue;
+}
+div{
+    width: 100px;
+    height: 100px;
+  
+    padding: 15px;
+    margin: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.d2{
+    
+    width: 150px;
+    height: 250px;
+    position: sticky;
+    border-color: none;
+    top:30px;
+    right: 100px;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }   
+}
+.d1 {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 0px 200px 0px 200px;
+    position: fixed;
+    top: 0px;
+   
+    right: 730px;
+    animation: rotate 2s linear infinite;
+} 
+/* .d2{
+    border-width: 5px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 50%;
+    overflow: hidden;
+    /* animation: rotate 1ms linear infinite; */
+/* }
+
+.d3{
+    border-width: 5px 10px 30px 20px;
+    border-style: outset;
+    border-radius: 0px 200px 0px 200px;
+    border-color: black;
+    /* animation: rotate 0.1s linear infinite; */
+/* }
+
+.d4{
+    background-image: url(./vlcsnap-2024-10-26-00h17m25s596.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-width: 5px 5px 88px 8px;
+    border-radius: 0px 200px 0px 200px;
+    border-style: groove;
+    animation: rotate 0.1s linear infinite;
+    border-color: black;
+} */ 
