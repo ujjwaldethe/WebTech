@@ -2,367 +2,117 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-main
-{
+  }
+  nav {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100% 
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    width: 100%;
-    height: 10vh;
+    box-shadow: 0px 5px 3px rgb(237, 235, 235);
     position: sticky;
-    top: 0px;
-    box-shadow: 0px 5px 10px rgb(184, 182, 182);
-}
-
-.section1 {
-    width: 100%;
-    height: 100vh;
-}
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 10%;
-}
-.div1{
-    display: flex;
-    width: 40%;
-    justify-content: start;
-    gap: 4.5%;
-    text-transform: uppercase;
-    font-weight: bold;
-    align-items: center;
-}
-.search{
-    display: flex;
-    justify-self:space-between;
-    align-items: center;
-    
-    width: 30%;
-    height: 50%;
-    outline: 0.1px solid black ;
-  
-}
-i{
-    padding-left: 3%;
-    width: 10%;
-}
-form{
-    width:80%;
-}
-.search-bar{
-    width: 100%;
-    padding: 1% 2%;
-    border: none;
-    outline: none;
-}
-.mdiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 18%;
-    height: 100%;
-
-    margin-left: 20px;
+    top: 0;
     background-color: white;
-   
-}
-.profile{
+  }
+  nav main {
     display: flex;
-    width: 30%;  
-    flex-direction: column;
-    justify-content: center;
+    height: 8vh;
     align-items: center;
-   
-}
-.profile p{
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    color: black;
-    margin-left: 12%;
-}
-
-.section1-content{
-    width: 100%;
-    height: 80vh;
+  }
+  nav main:nth-child(1) {
+    justify-content: center;
+    width: 15%;
+    /* background: red; */
+    /* border: 1px solid; */
+  }
+  nav input {
+    width: 30vw;
+    height: 4vh;
+  }
+  nav main:nth-child(2) {
     display: flex;
-    margin-top: 0px;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-}
-.discount{
-
+    /* background: gray; */
+    justify-content: space-around;
+    width: 35%;
+    /* border: 1px solid; */
+  }
+  nav main:nth-child(3) {
+    width: 35%;
+    /* border: 1px solid; */
+  }
+  nav main:nth-child(4) {
+    width: 15%;
+    /* background: red; */
+    justify-content: space-around;
+    /* border: 1px solid; */
+  }
+  .mainBody {
+    display: flex;
+  }
+  .mainBody section {
+    /* border: 1px solid; */
+    height: 60vh;
+  }
+  .mainBody section:nth-child(1) {
+    background: lightskyblue;
     width: 70%;
-    height: 75%;
-    margin: 0;
-    padding: 0;
-    background-color: brown;
-    background-image: url(./discount.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 20px;
-}
-.flat{
+  }
+  
+  .mainBody section:nth-child(2) {
+    background: rgb(209, 234, 250);
+    width: 30%;
+  }
+  
+  .risingStars h1 {
+    height: 15vh;
+    /* border: 1px solid; */
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    height: 15%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-}
-.flat div{
-    width: 50%;
-    height: 100%;
-}
-.f1{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/flat1.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.f2{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/flat2.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.sky{
-    margin-top: 10px;
+    padding: 0px 0px 0px 50px;
+  }
+  .risingStars section {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 15%;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/sky.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-}
-.s1{
-    display: flex;
-    justify-self: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-}
-.s1 div{
+  }
+  .risingStars div {
     width: 20%;
-    height: 95%;
-    gap: 50px;
-}
-.i1{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/i1.png);
-    background-position: center;
-    background-size: cover;
-}
-.i2{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/i2.png);
-    background-position: center;
-    background-size: cover;
-}
-.i3{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/i3.png);
-    background-position: center;
-    background-size: cover;
-}
-.i4{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/i4.png);
-    background-position: center;
-    background-size: cover;
-}
-.i5{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/i5.png);
-    background-position: center;
-    background-size: cover;
-}
-.i6{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/i6.png);
-    background-position: center;
-   
-    background-size: cover;
-}
-.heading{
-    width: 100%;
-    min-height: 10%;
-    background-image:url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/explore.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.category {
-    display: flex;
-   justify-content: center;
-   align-items: center;
-    flex-wrap: wrap;
-    overflow: hidden; 
-    justify-content: space-evenly;
-    width: 100%;
-    height: 200vh;
-    background-position: center;
-    background-size: cover;
-}
-.pmain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: auto;
-    flex-wrap: wrap;
-    overflow: hidden;
-    justify-content: space-around;
-    background-position: center;
-    background-size: cover;
-}
-
-.pmain div {
-    min-width:180px;
-    min-height: 250px;
-    margin: 10px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.pmain div,.p1{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/1.jpg);
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.appLink{
-    margin-top:30px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 30%;
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/applink.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.copyright{
-    margin-top:10px ;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    
-}
-.copyright div{
-    width: 22%;
-    height: 90%;
-}
-ul{
-   list-style: none;
-   padding: 10px; 
-   margin: 0;
-}
-
-.store{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: start;
-    margin: 10px;
-}
-.exp>div{
-    margin-top: 10px;
-    width: 90%;
-    height: 10%;
-}
-.store div{
-    width: 100%;
-    height: 100%;
-
-}
-.playstore{
-    width: 100%;
-    height: 100%;
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/playstore.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-}
-.appstore{
-    width: 100%;
-    height: 100%;
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/appstore.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;  
-}
-.playstore1{
-    width: 100%;
-    height: 100%;
+    height: 50vh;
+    border: 1px solid;
+  }
+  .options, .options+article{
+    display: none;
+  }
+  .options~article{
+    width: 50vw;
+    height: 50vh;
+    top: 8vh;
+    right: 0px;
+    background: orange;
+    position: absolute;
+  }
+  .options+article>main{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-i{
-    font-size: 20px;
-}
-.last {
- 
+    flex-direction: column;
+    /* background: red; */
     width: 100%;
     height: 100%;
-}
-.lm{
-    height: 30%; /* Set a minimum height */
-    min-width: 100%; /* Optional: Set a minimum width */
-}
-#store5{
-    display: flex;
-   
-    
-   
-    margin-top: 10px;
-    width: 100%;
-    height: 20%;
-}
-.store5 div{
-    width: 100%;
-    height: 100%;
-
-}
-#playstore5{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/original.png);   
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 20%;
-    height: 100%;   
-}
-#appstore5{
-    margin:8px 0px 0px 5px;
-    width: 80%;
-    height: 100%;
-}
-#playstore6{
-    background-image: url(./Online\ Shopping\ for\ Women\,\ Men\,\ Kids\ Fashion\ &\ Lifestyle\ -\ Myntra_files/14return.png);   
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 20%;
-    height: 100%;
-   
-}
-#appstore6{
-    margin:8px 0px 0px 5px;
-    width: 80%;
-    height: 100%;
-}
+  }
+  @media (max-width: 600px) {
+    .options{
+      display: block;
+    }
+    .options:hover+article{
+      display: block;
+    }
+    nav main:nth-child(2) {
+      display: none;
+    }
+    nav main div {
+      display: none;
+    }
+    nav input{
+      /* position: relative;
+      right: 70px; */
+      width: 50vw;
+    }
+    nav main:nth-child(3){
+      width: 70vw;
+    }
+  }

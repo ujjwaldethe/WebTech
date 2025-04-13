@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid red;
+    border-left: 5px solid green;
+    border-right: 5px solid blue;
+    animation-name:rotate;
+    border-radius: 50%;
+    transform: skew(35deg, 35deg,);
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+}
+@keyframes rotate {
+    
+    to{
+        transform: rotate(360deg);
+    }   
+}
+
+
+.rotate:hover {
+    /* animation: rotate 2s linear infinite; */
+    transform: skew(35deg, 35deg);
+    transition-duration: 2s;
+}

@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: box;
+    animation-duration: 15s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.box1{
+    width:10vh;
+    height: 80vh;
+    background-color: rgb(153, 0, 255);
+}
+.box2{
+    width:10vh;
+    height: 70vh;
+    background-color: rgb(0, 255, 242);
+}
+.box3{
+    width:10vh;
+    height: 60vh;
+    background-color: rgb(0, 255, 21);
+}
+.box4{
+    width:20vh;
+    height: 50vh;
+    background-color: rgb(149, 255, 0);
+}
+.box5{
+    width:10vh;
+    height: 40vh;
+    background-color: rgb(255, 136, 0);
+}
+.box6{
+    width:10vh;
+    height: 30vh;
+    background-color: rgb(255, 0, 0);
+}
+@keyframes box{
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;   
+}
+
+.rotate:hover {
+    transform: rotate(180deg);
+    transition-duration: 2s;
+}
+.scale:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+.skew:hover{
+    transform: skew(35deg, 35deg) rotate(360deg);
+    transition-duration: 1.5s;
+}
+
+
+.translate:hover{
+    transform: translate(-50px, -50px);
+    transition-duration: 1s;
+}
+
+.translate2:hover{
+    animation-name: trans;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translate(35deg,35deg);
+}
+@keyframes trans {
+    to{
+        transform:rotate(360deg);
+    }
+}
+    
